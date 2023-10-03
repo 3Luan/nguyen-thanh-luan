@@ -1,0 +1,87 @@
+.fakeimg {
+    height: 200px;
+    background: #aaa;
+}
+
+.text_navbar {
+    border-right: 2px solid #e3e3e3;
+    /* Đường phân cách đen */
+    padding-right: 10px;
+    /* Khoảng cách giữa từ và đường phân cách */
+    margin-right: 10px;
+    /* Khoảng cách giữa các từ */
+    height: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.text_navbar a:hover {
+    color: #202040 !important;
+    font-weight: bold;
+}
+
+.tinlienquan {
+    color: black;
+}
+
+.relatednews {
+    border: solid 2px white;
+    background-color: white;
+    padding: 5;
+    border-radius: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.introduce p {
+    text-align: justify;
+    /* Đặt canh lề đều cho nội dung trong thẻ <p> */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    /* Đặt cả hai phần tử trên cùng một hàng */
+    align-items: center;
+    /* Căn giữa phần tử con trong phần tử cha */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    width: 100px;
+    /* Độ rộng cố định cho nhãn */
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+
+    /* Phần còn lại của hàng sẽ mở rộng để lấp đầy không gian trống */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+    width: 350px;
+}
+
+.form-group .icon i {
+    margin-right: 10px;
+    /* Khoảng cách giữa biểu tượng và trường nhập */
+    color: #777;
+}
+
+.form-group textarea {
+    height: 190px;
+}
+
+.btn-contact {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 170px;
+}
